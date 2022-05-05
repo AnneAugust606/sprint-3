@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html {
@@ -208,6 +209,10 @@ nav i {
 .contact p {
     padding: .5vh 0;
 }
+.contact a {
+    text-decoration: none;
+    color: white;
+}
 
 .info {
     width: 100%;
@@ -249,7 +254,29 @@ footer nav {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
+    h1 {
+        font-size: 5.5rem;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+    .links a {
+        padding: 0;
+    }
+    .left {
+        width: 100%;
+    }
+    .left input {
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+    }
+    .left button {
+        width: 100%;
+        padding: 2%;
+    }
+
 
     /* gallery section */
     .gallery {
@@ -299,5 +326,7 @@ footer nav {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        justify-content: center;
+        text-align: center;
     }
 }
