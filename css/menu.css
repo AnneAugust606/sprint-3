@@ -96,6 +96,38 @@ header {
     background-repeat: no-repeat;
 }
 
+.header {
+        color: rgb(225, 239, 230);
+        padding: 2%;
+}
+.h1 {
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(225, 239, 230);
+}
+body {
+        background-color: rgb(0, 4, 17);
+            color: rgb(225, 239, 230);
+}
+
+header .color {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 4, 17, .8);
+}
+nav a {
+    padding: 4%;
+    text-decoration: none;
+    color: white;
+}
+nav {
+    padding: 2%;
+}
+nav i {
+    font-size: 2rem;
+    padding: 0 5%;
+}
+
 /* spacer */
 .spacer {
     width: 100%;
@@ -118,6 +150,26 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu h2 {
+    justify-content: center;
+}
+.menu div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.drinks h4 {
+    display: flex;
+    flex-direction: row;
+}
+.drinks .money {
+    justify-content: end;
+}
+.drinks p {
+    font-size: 2rem;
 }
 
 /* footer section */
@@ -126,6 +178,16 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer nav {
+    width: 80%;
+    justify-content: end;
+}
+.copy {
+    font-size: 1.5rem;
+    justify-content: end;
 }
 
 /* mobile media query */

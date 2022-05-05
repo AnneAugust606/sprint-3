@@ -93,6 +93,42 @@ header {
     background-repeat: no-repeat;
 }
 
+* {
+    max-width: 100%;
+    line-height: 1;
+}
+.header {
+        color: rgb(225, 239, 230);
+        padding: 2%;
+        background-color: rgb(0, 4, 17, .8);
+}
+.h1 {
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(225, 239, 230);
+}
+body {
+        background-color: rgb(0, 4, 17);
+            color: rgb(225, 239, 230);
+}
+header .color {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 4, 17, .8);
+}
+nav a {
+    padding: 4%;
+    text-decoration: none;
+    color: white;
+}
+nav {
+    padding: 2%;
+}
+nav i {
+    font-size: 2rem;
+    padding: 0 5%;
+}
+
 /* spacers */
 .spacer {
     width: 100%;
@@ -111,6 +147,10 @@ header {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    margin-bottom: 5%;
+}
+.gallery img {
+    padding: 1%;
 }
 
 /* about us section */
@@ -194,6 +234,16 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer nav {
+    width: 80%;
+    justify-content: end;
+}
+.copy {
+    font-size: 1.5rem;
+    justify-content: end;
 }
 
 /* mobile media query */
